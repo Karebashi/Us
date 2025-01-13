@@ -84,8 +84,8 @@ button {
     }
 }
 
-/* Media query for iPhone */
-@media (max-width: 480px) {
+/* Media query for iPhone and similar devices */
+@media (max-width: 480px), (max-width: 1170px) {
     .container {
         padding: 15px;
     }
